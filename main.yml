@@ -1,0 +1,1 @@
+ $installCommand = Invoke-Command -ComputerName $serverName -Credential $credential -ScriptBlock {Restart-Computer -ComputerName $serverName -Credential $credential -Force}
